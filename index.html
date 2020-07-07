@@ -7,15 +7,19 @@
 
 		<!-- Favicon -->
 
-		<!-- Font Awesome -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
-		/>
 		<!-- Google Fonts -->
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
 		/>
 		<!-- Bootstrap: CSS -->
 		<link
@@ -30,10 +34,353 @@
 	</head>
 	<body>
 		<!-- Header -->
-		<header></header>
+		<header class="header">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarTogglerDemo03"
+						aria-controls="navbarTogglerDemo03"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" href="#"
+						><img
+							class="d-block w-100"
+							src="assets/img/icon/Logo.png"
+							alt="Logo"
+							style="max-width: 198px;"
+					/></a>
+
+					<div
+						class="collapse navbar-collapse"
+						id="navbarTogglerDemo03"
+					>
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Books</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Cources</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Others</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link btn btn-primary" href="#"
+									>Sign in</a
+								>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!-- Hero Section -->
+		<section class="hero-section">
+			<div class="container">
+				<div class="hero-content">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<div class="text">
+								<p class="subheading">
+									Are you ready to Learn?
+								</p>
+								<h2>
+									Learn With fun <br />
+									on <span>any schedule</span>
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Varius blandit facilisis
+									quam netus.
+								</p>
+								<a class="btn btn-primary" href="#"
+									>Get Started</a
+								>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image image mt-4 mt-md-0">
+								<img
+									src="assets/img/photos/Illustration.png"
+									alt=""
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Features -->
+		<section class="features py-5">
+			<div class="container">
+				<div class="features-content">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 mb-lg-0 mb-4">
+							<div class="features-item text-center">
+								<img
+									style="max-width: 58px;"
+									src="assets/img/icon/book.png"
+									alt=""
+								/>
+								<h4>1500+ Topic</h4>
+								<span>Learn Anythings</span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 mb-lg-0 mb-4">
+							<div class="features-item text-center">
+								<img
+									style="max-width: 70px;"
+									src="assets/img/icon/Student.png"
+									alt=""
+								/>
+								<h4>1800+ Students</h4>
+								<span>Learn Anythings</span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 mb-lg-0 mb-4">
+							<div class="features-item text-center">
+								<img
+									style="max-width: 70px;"
+									src="assets/img/icon/Test.png"
+									alt=""
+								/>
+								<h4>9K+ Test Token</h4>
+								<span>Learn Anythings</span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 mb-lg-0 mb-4">
+							<div class="features-item text-center">
+								<img
+									style="max-width: 70px;"
+									src="assets/img/icon/Students.png"
+									alt=""
+								/>
+								<h4>2000+ Student</h4>
+								<span>Learn Anythings</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Courses -->
+		<section class="courses py-5">
+			<div class="container">
+				<div class="section-heading text-center mb-5">
+					<h3>Online Courses</h3>
+				</div>
+				<div class="course-content">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card course-item mb-4 mb-md-0">
+								<img
+									class=""
+									src="./assets/img/photos/Morder-pyschology.png"
+									alt="Card image cap"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">
+										Modern Psychology
+									</h5>
+									<p class="card-text">
+										Designation
+									</p>
+									<a href="" class="btn btn-primary"
+										>Buy Course</a
+									>
+								</div>
+								<div class="card-footer">
+									<div
+										class="d-flex flex-wrap justify-content-between"
+									>
+										<div class="meta">
+											<img
+												style="width: 24px;"
+												src="./assets/img/icon/calendar.png"
+												alt=""
+											/><span>Start 20 April, 2021</span>
+										</div>
+										<div class="meta">
+											<img
+												style="width: 24px;"
+												src="./assets/img/icon/people.png"
+												alt=""
+											/><span>60 seats</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card course-item mb-4 mb-md-0">
+								<img
+									class=""
+									src="./assets/img/photos/Morder-psyc.png"
+									alt="Card image cap"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">
+										Modern Psychology
+									</h5>
+									<p class="card-text">
+										Designation
+									</p>
+									<a href="" class="btn btn-primary"
+										>Buy Course</a
+									>
+								</div>
+								<div class="card-footer">
+									<div
+										class="d-flex flex-wrap justify-content-between"
+									>
+										<div class="meta">
+											<img
+												style="width: 24px;"
+												src="./assets/img/icon/calendar.png"
+												alt=""
+											/><span>Start 20 April, 2021</span>
+										</div>
+										<div class="meta">
+											<img
+												style="width: 24px;"
+												src="./assets/img/icon/people.png"
+												alt=""
+											/><span>60 seats</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card course-item mb-4 mb-md-0">
+								<img
+									class=""
+									src="./assets/img/photos/Morder-pychons.png"
+									alt="Card image cap"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">
+										Modern Psychology
+									</h5>
+									<p class="card-text">
+										Designation
+									</p>
+									<a href="" class="btn btn-primary"
+										>Buy Course</a
+									>
+								</div>
+								<div class="card-footer">
+									<div
+										class="d-flex flex-wrap justify-content-between"
+									>
+										<div class="meta">
+											<img
+												style="width: 24px;"
+												src="./assets/img/icon/calendar.png"
+												alt=""
+											/><span>Start 20 April, 2021</span>
+										</div>
+										<div class="meta">
+											<img
+												style="width: 24px;"
+												src="./assets/img/icon/people.png"
+												alt=""
+											/><span>60 seats</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Testimonial -->
+		<section class="testimonial py-5">
+			<div class="container">
+				<div class="section-heading text-center">
+					<h3>Testimonial</h3>
+				</div>
+			</div>
+		</section>
 
 		<!-- Footer -->
-		<footer></footer>
+		<footer class="footer">
+			<div class="container">
+				<div class="row py-5">
+					<div class="col-md-5">
+						<div class="footer-content">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Fugiat debitis architecto
+								fugit natus.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="footer-content list">
+									<h4>Courses</h4>
+									<ul>
+										<li><a href="#">Graphic Design</a></li>
+										<li><a href="#">Web Design</a></li>
+										<li><a href="#">Business</a></li>
+										<li><a href="#">Marketing</a></li>
+										<li><a href="#">Engineering</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="footer-content list">
+									<h4>Teams</h4>
+									<ul>
+										<li><a href="#">Graphic Design</a></li>
+										<li><a href="#">Web Design</a></li>
+										<li><a href="#">Business</a></li>
+										<li><a href="#">Marketing</a></li>
+										<li><a href="#">Engineering</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="footer-content list">
+									<h4>Useful Links</h4>
+									<ul>
+										<li><a href="#">Graphic Design</a></li>
+										<li><a href="#">Web Design</a></li>
+										<li><a href="#">Business</a></li>
+										<li><a href="#">Marketing</a></li>
+										<li><a href="#">Engineering</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright py-3">
+					<p class="text-center ">
+						Programmin Hero Assignment &copy; 2020 | build with
+						<span>❤</span> by
+						<a href="https://www.linkedin.com/in/saiefalemon"
+							>Saief Al Emon</a
+						>
+					</p>
+				</div>
+			</div>
+		</footer>
 
 		<!-- Bootstrap: JS, Popper.js, and jQuery -->
 		<script

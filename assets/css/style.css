@@ -1,0 +1,319 @@
+/* -------- Reset CSS -------- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* -------- Main CSS ------------*/
+:root {
+	--default: #6c6b6b;
+	--dark: #585859;
+	--dark-blue: #413960;
+	--dark-black: #000;
+	--highlighted: #21b573;
+	--grad-1: #ffd019;
+	--grad-2: #ff9c35;
+	--shadow-1: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	--shadow-2: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 1.875;
+	font-weight: 400;
+	color: var(--dark);
+	background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 500;
+	color: var(--dark-blue);
+}
+
+a:hover {
+	color: var(--highlighted);
+}
+
+img {
+	width: 100%;
+}
+
+/* ----- Header ----- */
+.header {
+	background: #f0fff0;
+}
+.navbar {
+	padding: 0.8rem 0;
+}
+
+.navbar-nav .nav-link {
+	color: #000;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+	margin-right: 24px;
+}
+
+.navbar-nav .nav-link.btn-primary {
+	padding: 9px 28px;
+}
+
+.navbar-nav .nav-link.btn-primary,
+.btn-primary {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	background: var(--highlighted);
+	border: none;
+	padding: 10px 37px;
+	border-radius: 33px;
+	display: inline-block;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.navbar-nav .nav-link.btn-primary:hover,
+.navbar-nav .nav-link.btn-primary:focus {
+	box-shadow: 0 0 0 0.2rem rgba(33, 181, 114, 0.5);
+	background-color: #15af69;
+}
+
+.navbar-nav .nav-link.btn-primary {
+	padding: 9px 28px;
+}
+
+.navbar-light .navbar-toggler {
+	color: #000;
+	border-color: #21b572;
+	outline: none;
+}
+
+/* ----- Hero-section ----- */
+.hero-section {
+	background: #f0fff0;
+}
+.hero-content {
+	padding: 50px 0 100px 0;
+}
+
+.hero-content .subheading {
+	color: #fd511a;
+	margin-bottom: 2px;
+}
+
+.hero-content h2 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.45;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.hero-content p:not(.subheading) {
+	margin-bottom: 30px;
+}
+
+.hero-content h2 span {
+	color: #21b573;
+}
+
+.hero-content .image {
+	margin-right: -14px;
+}
+
+/* ----- Features ----- */
+.features-item {
+	background: #f8fffb;
+	border-radius: 10px;
+	max-width: 270px;
+	min-height: 270px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	transition: 0.3s linear;
+}
+
+.features-item span {
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--dark);
+}
+
+.features-item h4 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: var(--dark-blue);
+	margin-bottom: 2px;
+}
+
+.features-item img {
+	margin-bottom: 28px;
+}
+
+.features-item:hover {
+	box-shadow: var(--shadow-2);
+	transform: translateY(-3px);
+}
+
+.section-heading h3 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+/* ----- Courses ----- */
+.course-item {
+	background: #ffffff;
+	box-shadow: var(--shadow-1);
+	border-radius: 18px;
+	border: none;
+	padding: 24px 20px;
+	transition: 0.3s linear;
+}
+.course-item:hover {
+	box-shadow: var(--shadow-2);
+	transform: translateY(-3px);
+}
+.course-item .card-body {
+	padding: 20px 0;
+}
+.course-item .card-title {
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 0;
+}
+.course-item .card-text {
+	margin-bottom: 14px;
+}
+.course-item .card-footer {
+	border-radius: 0;
+	background: transparent;
+	border: 0;
+	padding: 0;
+}
+.course-item .card-footer .meta {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+}
+.course-item .card-footer .meta span {
+	display: inline-block;
+	margin: 2px 0 0 5px;
+}
+
+.course-item .btn-primary {
+	padding: 7px 29px;
+	margin-bottom: 8px;
+}
+/* ----- Testimonial ----- */
+
+/* ----- Footer ----- */
+.footer {
+	background: #282531;
+	color: #fff;
+}
+
+.footer-content h4 {
+	color: #fff;
+}
+
+.footer-content.list {
+}
+
+.footer-content.list ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-content.list li {
+	list-style: none;
+}
+
+.footer-content.list a {
+	color: #fff;
+}
+.footer .copyright p {
+	margin: 0;
+}
+footer .copyright p,
+footer .copyright a {
+	color: #fff;
+}
+
+footer .copyright a {
+	text-decoration: underline;
+}
+
+footer .copyright a:hover {
+	text-decoration: none;
+}
+
+footer .copyright span {
+	color: #ff2a7e;
+	font-size: 1rem;
+	line-height: 1;
+}
+
+/* -------- Responsive CSS -------- */
+@media screen and (max-width: 991px) and (min-width: 767px) {
+	.course-item {
+		padding: 15px;
+	}
+	.course-item .card-body {
+		padding: 14px 0;
+	}
+	.course-item .card-title {
+		font-size: 17px;
+		font-weight: 600;
+		line-height: 1.4;
+	}
+	.course-item .btn-primary {
+		padding: 5px 20px;
+		font-size: 14px;
+	}
+	.course-item .card-footer .meta {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 1500px) {
+}
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 991px) {
+	body {
+		font-size: 14px;
+		line-height: 1.75;
+	}
+	br {
+		display: none;
+	}
+	.hero-content h2 {
+		font-size: 2rem;
+		line-height: 1.35;
+		margin-bottom: 15px;
+	}
+	.hero-content p:not(.subheading) {
+		margin-bottom: 15px;
+	}
+
+	.btn-primary {
+		padding: 8px 25px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.hero-content .image {
+		margin-right: 0px;
+	}
+}
+@media screen and (max-width: 575px) {
+}
