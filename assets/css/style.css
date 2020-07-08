@@ -48,32 +48,37 @@ img {
 .navbar {
 	padding: 0.8rem 0;
 }
-.navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
 	color: #000;
+	transition: 0.1s;
 }
 .navbar-nav .nav-item:not(:last-child) {
 	margin-right: 24px;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+	color: var(--highlighted);
+}
 .navbar-nav .nav-link.btn-primary {
 	padding: 9px 28px;
 }
-.navbar-nav .nav-link.btn-primary,
+.navbar-light .navbar-nav .nav-link.btn-primary,
 .btn-primary {
 	font-family: "Roboto", sans-serif;
 	font-weight: 300;
-	color: #ffffff;
+	color: #fff;
 	background: var(--highlighted);
 	border: none;
 	padding: 10px 37px;
 	border-radius: 33px;
 	display: inline-block;
+	transition: 0.2s;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .navbar-nav .nav-link.btn-primary:hover,
 .navbar-nav .nav-link.btn-primary:focus {
 	box-shadow: 0 0 0 0.2rem rgba(33, 181, 114, 0.5);
-	background-color: #15af69;
+	background-color: hsla(153, 69%, 39%, 1);
 }
 .navbar-nav .nav-link.btn-primary {
 	padding: 9px 28px;
@@ -161,7 +166,7 @@ img {
 }
 .course-item:hover {
 	box-shadow: var(--shadow-2);
-	transform: translateY(-3px);
+	transform: translateY(-5px);
 }
 .course-item .card-body {
 	padding: 20px 0;
