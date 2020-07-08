@@ -52,6 +52,9 @@ img {
 	color: #000;
 	transition: 0.1s;
 }
+.navbar-nav .nav-item {
+	text-align: center;
+}
 .navbar-nav .nav-item:not(:last-child) {
 	margin-right: 24px;
 }
@@ -292,6 +295,9 @@ img {
 	}
 	br {
 		display: none;
+	}
+	.navbar-nav .nav-item:not(:last-child) {
+		margin-right: 0px;
 	}
 	.hero-content h2 {
 		font-size: 2rem;
